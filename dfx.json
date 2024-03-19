@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "socials_backend": {
+      "main": "src/socials_backend/main.mo",
+      "type": "motoko"
+    },
+    "socials_frontend": {
+      "dependencies": [
+        "socials_backend"
+      ],
+      "source": [
+        "src/socials_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "socials_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

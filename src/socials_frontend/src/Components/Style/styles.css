@@ -1,0 +1,84 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20%; /* Increased height */
+  margin: 0;
+  padding: 0;
+  background-image: url('bckgd.png'); /* Path to your background image */
+  background-size: cover; /* Ensure the background image covers the entire container */
+  background-position: center; /* Center the background image */
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #3F2305; /* Heading name color */
+  font-size: 18px; /* Increased font size */
+  margin-bottom: 10px; /* Added bottom margin */
+}
+
+form {
+  background-color: rgba(136, 74, 57, 0.8); /* Use rgba to add transparency */
+  padding: 20px; /* Increased padding */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.form-group {
+  margin-bottom: 15px; /* Increased bottom margin */
+}
+
+label {
+  font-weight: bold;
+  color: #FEFAE0; /* Adjusted label color */
+  font-size: 18px;
+}
+
+input, textarea {
+  width: calc(100% - 22px); /* Adjusted width */
+  padding: 8px; /* Increased padding */
+  border: none;
+  border-radius: 5px;
+  background-color: #FEFAE0;
+  margin-top: 10px; /* Added top margin */
+  margin-bottom: 15px; /* Added bottom margin */
+  font-size: 20px; /* Increased font size */
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  font-size: 20px; /* Adjusted font size */
+  width: 30px; /* Adjusted width */
+  height: 30px; /* Adjusted height */
+}
+
+textarea[name="eventDescription"] {
+  width: calc(100% - 22px); /* Adjusted width */
+  padding: 12px; /* Increased padding */
+  border: none;
+  border-radius: 5px;
+  background-color: #FEFAE0;
+  margin-top: 10px; /* Added top margin */
+  margin-bottom: 15px; /* Added bottom margin */
+  font-size: 20px; /* Increased font size */
+  height: 200px; /* Adjusted height */
+}
+
+
+
+button {
+  background-color: #5c311e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px; /* Increased padding */
+  cursor: pointer;
+  font-size: 22px; /* Increased font size */
+  margin: 0 auto; /* Center the button horizontally */
+  display: block;
+}
+
+button:hover {
+  background-color: #3a1f13;
+}
